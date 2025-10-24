@@ -30,7 +30,7 @@ $config = array(
 	 * Recommended: 'prod' cause of speed (page load time is better)
 	 */
 	'env' => 'prod', // 'prod' for production and 'dev' for development
-	'domain' => 'baiaking.com',
+	'domain' => '', // your website domain, e.g. myserver.org (used for cookies and some links generation)
 
 	'template' => 'tibiacom', // template used by website (kathrine, tibiacom)
 	'template_allow_change' => false, // allow users to choose their own template while browsing website?
@@ -56,7 +56,7 @@ $config = array(
 	'title_separator' => ' - ',
 
 	// footer
-	'footer' => ''/*'<br/>Your Server &copy; 2016. All rights reserved.'*/,
+	'footer' => ''/*'<br/>Your Server &copy; 2025. All rights reserved.'*/,
 
 	'language' => 'en', // default language (currently only 'en' available)
 	'language_allow_change' => false,
@@ -66,7 +66,7 @@ $config = array(
 	'views_counter' => true,
 
 	// cache system. by default file cache is used
-	'cache_engine' => 'auto', // apc, apcu, eaccelerator, xcache, file, auto, or blank to disable.
+	'cache_engine' => '', // apc, apcu, eaccelerator, xcache, file, auto, or blank to disable.
 	'cache_prefix' => 'myaac_', // have to be unique if running more MyAAC instances on the same server (except file system cache)
 
 	// database details (leave blank for auto detect from config.lua)
@@ -122,7 +122,7 @@ $config = array(
 	'account_change_character_sex_coins' => 150, // cost of sex change
 	'account_change_character_main' => true, // can user change their main character for coins?
 	'account_change_character_main_coins' => 250, // cost of main change
-	'characters_per_account' => 10,	// max. number of characters per account
+	'characters_per_account' => 20,	// max. number of characters per account
 	'account_update_info_on_register' => true, // let player update your 'Public Information' when register at first time only
 
 	// recovery key
@@ -316,8 +316,8 @@ $config = array(
 
 	// status bar
 	'status_bar' => true,
-	'client_link' => 'https://github.com/dudantas/tibia-client/releases/tag/13.21.13839', // link to download tibia client
-	'discord_link' => 'https://discord.com/invite/gvTj5sh9Mp', // link to join discord channel
+	'client_link' => 'https://github.com/zimbadev/gameclient/releases', // link to download tibia client
+	'discord_link' => 'https://discord.com/invite/7AYJEHTghQ', // link to join discord channel
 	'whatsapp_link' => '5511912345678', // wa.me/5511912345678
 	'instagram_link' => 'profile', // www.instagram.com/profile
 	'facebook_link' => 'page', // www.facebook.com/page
